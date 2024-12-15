@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.home-button {
+  background-color: #003442;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  padding: 30px;
+  border-radius: 50%;
+  position: fixed;
+  cursor: pointer;
+  transition: all ease-in-out 1s;
+}
+
+.home-button:hover {
+  box-shadow: 0px 0px 10px rgb(255, 255, 255);
+}
+
+.side-button-1 {
+  background-color: rgb(53, 1, 68);
+  width: 30px;
+  height: 30px;
+  display: flex;
+  padding: 10px;
+  border-radius: 50%;
+  position: fixed;
+  top: "48%";
+  left: "50%";
+  transition: all ease-in-out 0.5s;
+  cursor: pointer;
+}
+
+.side-button-2 {
+  background-color: #003637;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  padding: 10px;
+  border-radius: 50%;
+  position: fixed;
+  top: "48%";
+  right: "50%";
+  transition: all ease-in-out 0.5s;
+  cursor: pointer;
+}
+.side-button-3 {
+  background-color: rgb(68, 56, 0);
+  width: 30px;
+  height: 30px;
+  display: flex;
+  padding: 10px;
+  border-radius: 50%;
+  position: fixed;
+  top: "50%";
+  transition: all ease-in-out 0.5s;
+  cursor: pointer;
+}
+.side-button-4 {
+  background-color: rgb(79, 0, 29);
+  width: 30px;
+  height: 30px;
+  display: flex;
+  padding: 10px;
+  border-radius: 50%;
+  position: fixed;
+  top: "48%";
+  right: "50%";
+  transition: all ease-in-out 0.5s;
+  cursor: pointer;
+}
+.side-button-5 {
+  background-color: rgb(177, 180, 1);
+  width: 30px;
+  height: 30px;
+  display: flex;
+  padding: 10px;
+  border-radius: 50%;
+  position: fixed;
+  top: "48%";
+  left: "50%";
+  transition: all ease-in-out 0.5s;
+  cursor: pointer;
+}
+
+.side-button-5:hover,
+.side-button-1:hover,
+.side-button-2:hover,
+.side-button-3:hover,
+.side-button-4:hover {
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  box-shadow: 0px 0px 10px white;
+}
+
