@@ -19,7 +19,7 @@ const show = () => {
     document.getElementById("2").style.top = "36.2%";
     document.getElementById("2").style.right = "44%";
     document.getElementById("4").style.top = "44.8%";
-    document.getElementById("4").style.right = "42%";
+    document.getElementById("4").style.right = "42%"; 
     document.getElementById("5").style.top = "44.8%";
     document.getElementById("5").style.left = "42%";
   } else {
